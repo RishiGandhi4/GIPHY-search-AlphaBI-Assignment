@@ -44,3 +44,33 @@ Follow these instructions to get a copy of the project up and running on your lo
 
    ```bash
    git clone https://github.com/yourusername/giphy-website.git
+   Change to the project directory:
+
+bash
+Copy code
+cd giphy-website
+Install the required dependencies:
+
+bash
+Copy code
+npm install
+Usage
+To start the development server, run the following command:
+
+bash
+Copy code
+npm start
+Open your web browser and go to http://localhost:3000 to access the GIPHY Website.
+
+## API Key
+To use the GIPHY API, you need to obtain an API key. Follow these steps to get your API key:
+
+Visit the GIPHY Developers website.
+Sign up for an account or log in if you already have one.
+Create a new application to get your API key.
+Replace the placeholder API key in your project with your newly acquired GIPHY API key.
+Deployed Demo
+You can access the deployed demo of this project at https://giphy-search-alpha-bi-assignment-8zvu37y4p-rishigandhi4.vercel.app/login.
+
+## Contributing
+If you want to contribute to this project, please follow the contributing guidelines.
