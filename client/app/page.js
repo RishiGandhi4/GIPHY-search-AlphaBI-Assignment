@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import styled from "styled-components";
 import Button from "../Components/Button";
 import Favourites from "../Components/Favourites";
@@ -10,6 +10,7 @@ import Search from "../Components/Search";
 import Trending from "../Components/Trending";
 import { useGlobal } from "../context/global";
 import { useTheme } from "../context/themeContext";
+import {useRouter} from "next/navigation";
 
 const AppStyled = styled.div`
   min-height: 100vh;
@@ -35,6 +36,14 @@ const AppStyled = styled.div`
 export default function Home() {
   const { randomGiff } = useGlobal();
   const theme = useTheme();
+
+  const navigate = useRouter();
+
+  useEffect(() => {
+    if(!localStorage.getItem('user')){
+      navigate.push("/login");
+    }
+  }, [])
 
   //state
   const [rendered, setRendered] = useState("trending");

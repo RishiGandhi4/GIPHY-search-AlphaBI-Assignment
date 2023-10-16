@@ -62,7 +62,7 @@ const Register = () => {
               password: "",
               name: "",
             });
-    
+            localStorage.setItem("user", 1);
             navigate.push("/");
           } catch (err) {
             navigate.push("/login");

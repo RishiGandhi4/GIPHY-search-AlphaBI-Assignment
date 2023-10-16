@@ -51,6 +51,8 @@ const Login = () => {
 
         console.log(result);
 
+        localStorage.setItem("user", 1);
+
         toast.success("User has successfully Logged In", toastOptions);
 
         navigate.push("/");
