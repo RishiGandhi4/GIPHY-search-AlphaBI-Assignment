@@ -1,8 +1,8 @@
 
-GIPHY Website
+#GIPHY Website
 This is a web application that allows users to search and explore GIFs from GIPHY using the GIPHY API. The application is built using React and has been deployed on Vercel. It provides a user-friendly interface for searching and discovering a wide range of GIFs to add fun and entertainment to your web experience.
 
-Table of Contents
+#Table of Contents
 Demo
 Features
 Getting Started
@@ -16,7 +16,7 @@ License
 Demo
 You can check out the live demo of the GIPHY Website at https://your-vercel-url.com.
 
-Features
+#Features
 Search for GIFs: Users can enter keywords in the search bar to find GIFs related to their query.
 Infinite Scrolling: The app loads more GIFs as the user scrolls, providing a seamless browsing experience.
 GIF Details: Clicking on a GIF displays more details, including the GIF's title, user, and rating.
@@ -27,7 +27,7 @@ Built with React: The project is built using React, a popular JavaScript library
 Getting Started
 Follow these instructions to get a copy of the project up and running on your local machine for development and testing purposes.
 
-Prerequisites
+#Prerequisites
 Node.js and npm installed on your machine.
 GIPHY API Key (Instructions below on how to obtain it).
 Installation
@@ -54,7 +54,7 @@ Copy code
 npm start
 Open your web browser and go to http://localhost:3000 to access the GIPHY Website.
 
-API Key
+#API Key
 To use the GIPHY API, you need to obtain an API key. Follow these steps to get your API key:
 
 Visit the GIPHY Developers website.
@@ -64,7 +64,7 @@ Replace the placeholder API key in your project with your newly acquired GIPHY A
 Deploying to Vercel
 This project is designed to work seamlessly with Vercel for deployment. You can easily deploy it by following these steps:
 
-Create a Vercel account if you don't have one.
+#Create a Vercel account if you don't have one.
 
 Install the Vercel CLI:
 
